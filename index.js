@@ -24,20 +24,20 @@ document.querySelector("input").addEventListener("click", (e) => {
   const userValue = document.getElementById("difficulty").value;
 
   if (userValue === "Easy") {
-    setInterval(spawnEnemy, 2000);
-    return (difficulty = 5);
+    setInterval(spawnEnemy, 3000);
+    return (difficulty = 3);
   }
   if (userValue === "Medium") {
-    setInterval(spawnEnemy, 1400);
-    return (difficulty = 8);
+    setInterval(spawnEnemy, 2400);
+    return (difficulty = 5);
   }
   if (userValue === "Hard") {
-    setInterval(spawnEnemy, 1000);
-    return (difficulty = 10);
+    setInterval(spawnEnemy, 2000);
+    return (difficulty = 7);
   }
   if (userValue === "Insane") {
-    setInterval(spawnEnemy, 700);
-    return (difficulty = 12);
+    setInterval(spawnEnemy, 1700);
+    return (difficulty = 10);
   }
 });
 
